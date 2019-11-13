@@ -16,9 +16,9 @@ binding.pry
   # The movies variable show the names of all the movies.
  
 # directors_info = directors_name, movies
- movies[0..7].each do |movie|
- pp movie   
-end
+# movies[0..7].each do |movie|
+# pp movie   
+# end
 #This process creates a variable to access all of the movies from a hash.
 
  # directors_info is a variable containing all information of the first 2 variables.
