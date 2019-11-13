@@ -7,8 +7,11 @@ row_index = 0
 
 while row_index < nds.length do
 directors_name = nds[row_index][:name]
+binding.pry 
   # The directors_name is a variable of all the directors in the nds.
-  
+  # directors_name.each do |:name |
+    
+  # end
  movies = nds[row_index][:movies]
   # The movies variable show the names of all the movies.
  
@@ -16,6 +19,8 @@ directors_info = directors_name, movies
  movies[0..7].each do |movie|
  pp movie   
 end
+#This process creates a variable to access all of the movies from a hash.
+
  # directors_info is a variable containing all information of the first 2 variables.
 
 ## directors_gross = movies[column_index][:worldwide_gross]
