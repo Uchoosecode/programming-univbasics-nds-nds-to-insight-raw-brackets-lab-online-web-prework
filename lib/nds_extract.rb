@@ -20,7 +20,7 @@ gross = {
  
  while element_index < movies.length
 binding.pry 
- 
+ gross[:directors_name] += movies[element_index][:worldwide_gross]
  
  element_index += 1 
  end
