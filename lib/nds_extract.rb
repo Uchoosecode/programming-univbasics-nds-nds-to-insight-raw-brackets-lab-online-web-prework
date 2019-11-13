@@ -7,7 +7,7 @@ row_index = 0
 gross = {}
 while row_index < nds.length do
 directors_name = nds[row_index][:name]
-gross[directors_name] = {}
+gross[directors_name] = 0 
   # The directors_name is a variable of all the directors in the nds.
   # directors_name.each do |:name |
     
