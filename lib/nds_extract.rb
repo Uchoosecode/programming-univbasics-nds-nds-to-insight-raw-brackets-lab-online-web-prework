@@ -7,13 +7,22 @@ row_index = 0
 
 while row_index < nds.length do
 directors_name = nds[row_index][:name]
-binding.pry 
   # The directors_name is a variable of all the directors in the nds.
   # directors_name.each do |:name |
     
   # end
  movies = nds[row_index][:movies]
   # The movies variable show the names of all the movies.
+ element_index = 0 
+ while element_index < movies.length
+binding.pry 
+ 
+ 
+ element_index += 1 
+ end
+ 
+ 
+ 
  
 # directors_info = directors_name, movies
 # movies[0..7].each do |movie|
