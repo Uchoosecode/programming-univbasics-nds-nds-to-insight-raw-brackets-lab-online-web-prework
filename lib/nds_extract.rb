@@ -23,7 +23,7 @@ directors_info = directors_name, movies
 
   row_index += 1
   # pp directors_info[0...7]
-  pp directors_name, movies[0..7]
+  pp directors_name, movies[0..7][:worldwide_gross]
   # pp directors_name, movies
 # pp directors_info
 end
