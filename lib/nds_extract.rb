@@ -15,7 +15,7 @@ binding.pry
  movies = nds[row_index][:movies]
   # The movies variable show the names of all the movies.
  
-directors_info = directors_name, movies
+# directors_info = directors_name, movies
  movies[0..7].each do |movie|
  pp movie   
 end
