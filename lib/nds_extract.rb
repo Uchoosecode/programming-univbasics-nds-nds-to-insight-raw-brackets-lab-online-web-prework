@@ -22,7 +22,7 @@ directors_info = directors_name, movies
 # totals is a hash combining the two varaibles.
 
   row_index += 1
-  pp nds[row_index][0]
+  pp nds[row_index]["title"]
   # pp directors_info[0...7]
   # pp directors_name, movies[0..7][1][:worldwide_gross]
   # pp directors_name, movies
