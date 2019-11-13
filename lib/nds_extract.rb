@@ -13,6 +13,9 @@ directors_name = nds[row_index][:name]
   # The movies variable show the names of all the movies.
  
 directors_info = directors_name, movies
+ movies[0..7].each do |movie :worldwide_gross |
+ pp   
+end
  # directors_info is a variable containing all information of the first 2 variables.
 
 ## directors_gross = movies[column_index][:worldwide_gross]
@@ -23,7 +26,7 @@ directors_info = directors_name, movies
 
   row_index += 1
   # pp directors_info[0...7]
-  pp directors_name, movies[0..7].each do |:worldwide_gross |
+  pp 
   # pp directors_name, movies
 # pp directors_info
 end
