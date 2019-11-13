@@ -14,7 +14,7 @@ directors_name = nds[row_index][:name]
  
 directors_info = directors_name, movies
  movies[0..7].each do |movie|
- pp   
+    
 end
  # directors_info is a variable containing all information of the first 2 variables.
 
