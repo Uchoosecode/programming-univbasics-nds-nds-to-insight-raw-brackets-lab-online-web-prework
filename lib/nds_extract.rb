@@ -4,9 +4,12 @@ require 'directors_database'
 def directors_totals(nds)
   
 row_index = 0
-
+gross = {}
 while row_index < nds.length do
 directors_name = nds[row_index][:name]
+gross = {
+  directors_name => 0 
+}
   # The directors_name is a variable of all the directors in the nds.
   # directors_name.each do |:name |
     
@@ -14,6 +17,7 @@ directors_name = nds[row_index][:name]
  movies = nds[row_index][:movies]
   # The movies variable show the names of all the movies.
  element_index = 0 
+ 
  while element_index < movies.length
 binding.pry 
  
